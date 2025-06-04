@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+h2 {
+  margin-top: 10px;
+  min-height: 30px; /* Ensures space is always reserved */
+  text-align: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  margin-top: 20px;
+  font-size: 40px;
+  color: white;
+  background: black;
+  padding: 20px;
+}
+.lottry_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+button:active {
+  background-color: white;
+  color: black;
+}
+.box {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.winningBox {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.highlitedBox {
+  color: black;
+  /* background-color: rgb(203, 19, 239); */
+  /* border: 2px solid rgb(29, 203, 156);  */
+  background-color: white;
+  border: 2px solid black;
+}
