@@ -84,7 +84,7 @@ pickANumber.addEventListener("click", function () {
       }
     }
 
-    if (secCount === 25) {
+    if (secCount === 20) {
       const drawnNumber = Math.floor(Math.random() * 50) + 1;
       tick.pause();
       tick.currentTime = 0;
